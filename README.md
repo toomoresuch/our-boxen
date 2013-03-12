@@ -79,7 +79,8 @@ sudo mkdir -p /opt/boxen
 sudo chown ${USER}:admin /opt/boxen
 git clone <location of my new git repository> /opt/boxen/repo
 cd /opt/boxen/repo
-script/boxen
+export PATH=/usr/bin:/bin:$PATH
+script/boxen --no-fde
 ```
 
 It should run successfully, and should tell you to source a shell script
