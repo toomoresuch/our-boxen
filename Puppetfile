@@ -33,3 +33,12 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "appcleaner",    "1.0.0"
+github "chrome",        "1.1.0"
+github "dropbox",       "1.0.0"
+github "magican",       "1.0.1"
+github "osx",           "1.0.0"
+github "sublime_text_2","1.1.0"
+github "virtualbox",    "1.0.1"
+github "vlc",           "1.0.0"
